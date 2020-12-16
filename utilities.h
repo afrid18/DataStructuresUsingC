@@ -7,20 +7,26 @@ int printIntArray(int arr[], int size);
 
 int readIntArray(int arr[], int size)
 {
+    int reader = 0;
     for (int i = 0; i < size; i++)
     {
-        int reader = 0;
-        scanf("%d", &arr[size]);
+        scanf("%d", &arr[i]);
+        reader++;
     }
-    return 0;
+    printf("\n\n");
+    return reader;
 }
 
 int printIntArray(int arr[], int size)
 {
+    int printer = 0;
     for (int i = 0; i < size; i++)
     {
         printf("%d\t", arr[i]);
+        printer++;
     }
+    printf("\n\n");
+    return printer;
 }
 
 

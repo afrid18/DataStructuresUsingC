@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "utilities.h"
+#include "../utilities.h"
 #define MAX_ARRAY_LENGTH 10
 
 int getSmall(int arr[], int from, int to);

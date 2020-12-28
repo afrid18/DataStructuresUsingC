@@ -8,3 +8,6 @@ selectionSort: ../utilities.h
 
 insertionSort: ../utilities.h
 	gcc insertionSort.c -o insertionSort
+
+bubbleSort: ../utilities.h
+	gcc bubbleSort.c -o bubbleSort

@@ -11,3 +11,6 @@ insertionSort: ../utilities.h
 
 bubbleSort: ../utilities.h
 	gcc bubbleSort.c -o bubbleSort
+
+insertionSortStrings:
+	gcc insertionSortStrings.c -o insertionSortStrings

@@ -29,6 +29,5 @@ int printIntArray(int arr[], int size)
     return printer;
 }
 
-
 #endif
 

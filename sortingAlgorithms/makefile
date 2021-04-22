@@ -1,6 +1,4 @@
-all: selectionSort.c insertionSort.c ../utilities.h
-	gcc selectionSort.c -o selectionSort
-	gcc insertionSort.c -o insertionSort
+all: selectionSort insertionSort bubbleSort
 
 
 selectionSort: ../utilities.h

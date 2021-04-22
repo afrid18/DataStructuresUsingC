@@ -20,7 +20,7 @@ int main(void) {
 }
 
 void insertionSort(int arr[], int size) {
-    for(int start = 1; start < size; start++) {
+    for(int start = 1; start < size; ++start) {
         int key = arr[start];
         int k = start - 1;
         while(k >= 0 && key < arr[k]) {
